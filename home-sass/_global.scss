@@ -1,0 +1,26 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body {
+      font-family: 'Space Mono', monospace;
+      font-weight: 700;
+}
+.section{
+      overflow: hidden;
+}
+.container{
+      width: 90%;
+      margin: 0 auto;
+}
+.font-lexend{
+      font-family: 'Lexend Deca';
+      font-weight: 400;
+}
+@media only screen and (max-width: 576px) {
+      .container{
+            width: 85%;
+      }
+}

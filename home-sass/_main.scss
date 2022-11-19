@@ -1,0 +1,202 @@
+.main-row-1 {
+      margin-top: 140px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.col-name {
+      margin-top: 60px;
+      font-size: 48px;
+      letter-spacing: -2.14286px;
+      color: #495567;
+}
+
+.col-text {
+      font-size: 15px;
+      line-height: 25px;
+      color: #939CAA;
+      margin-top: 24px;
+}
+
+.circle-blue {
+      height: 445px;
+      width: 445px;
+      border-radius: 50%;
+      background: #E2EBE2;
+}
+
+.col-left-1 {
+      width: 445px;
+
+      .col-left-1__btn {
+            margin-top: 40px;
+      }
+}
+
+.col-right-1 {
+      position: relative;
+      width: 747px;
+
+      .women-img {
+            border-radius: 50%;
+            height: 445px;
+            position: absolute;
+            left: 10%;
+      }
+
+      .col-right-1__circle {
+            height: 445px;
+            position: absolute;
+            top: 0px;
+            left: 98%;
+      }
+
+      .col-right-1__ST {
+            width: 735px;
+            position: absolute;
+            top: 300px;
+            right: -12%;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+      .main-row-1 {
+            flex-direction: column-reverse;
+      }
+
+      .col-right-1 {
+            width: 573px;
+            height: 498px;
+
+            .col-right-1__circle {
+                  left: 90%;
+            }
+
+            .col-right-1__ST {
+                  right: -25%;
+            }
+      }
+
+      .col-left-1 {
+            text-align: center;
+            margin: auto;
+      }
+}
+
+@media only screen and (max-width: 576px) {
+      .col-right-1 {
+            width: 311px;
+
+            .women-img {
+                  width: 311px;
+                  height: 311px;
+                  left: 4%;
+            }
+
+            .col-right-1__circle {
+                  display: none;
+            }
+
+            .col-right-1__ST {
+                  top: 200px;
+                  right: -145%;
+            }
+      }
+
+      .col-left-1 {
+            width: 311px;
+            margin-top: -156px;
+      }
+}
+
+/*2-qatorga ottik*/
+.main-row-2 {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      margin-bottom: 500px;
+}
+
+.col-right-2 {
+      position: relative;
+      margin-top: 160px;
+
+      .city-main {
+            border-radius: 50%;
+            width: 445px;
+            height: 445px;
+            position: absolute;
+            top: 0;
+            left: 50px;
+      }
+
+      .col-right-2__circle {
+            position: absolute;
+            left: -450px;
+            z-index: 3;
+
+      }
+
+      .col-right-2-ST {
+            position: absolute;
+            left: -80px;
+            z-index: 2;
+      }
+}
+
+.col-left-2 {
+      width: 445px;
+      margin-top: 160px;
+      position: relative;
+      right: 15%;
+
+      .col-left-2__btn {
+            margin-top: 40px;
+      }
+}
+
+@media only screen and (max-width: 798px) {
+      .col-right-2 {
+           .col-right-2__circle{
+                  left: -410px;
+                  top: -15px;
+            }
+
+            .col-right-2-ST{
+                  left: -50px;
+            }
+      }
+
+      .col-left-2 {
+            width: 573px;
+            top: 480px;
+            left: 0.5%;
+            text-align: center;
+ 
+      }
+}
+
+@media only screen and (max-width: 576px) {
+      .col-right-2{
+            .col-right-2__circle{
+                  display: none;
+            }
+            .city-main{
+                  height: 311px;
+                  width: 311px;
+            }
+            .col-right-2-ST{
+                  left: -80px;
+            }
+      }
+      .col-left-2{
+            top: 340px;
+      }
+}
+@media only screen and (max-width: 460px) {
+      .col-right-2{
+            .city-main{
+               left: 10px;   
+            }
+      }
+}
