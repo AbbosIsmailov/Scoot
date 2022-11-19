@@ -2,7 +2,7 @@
       width: 100%;
       margin-top: 170px;
       background-color: #495567;
-      margin-bottom: 200px;
+      overflow: hidden;
 }
 
 .dow-row {
@@ -10,28 +10,31 @@
       align-items: center;
       height: 300px;
       position: relative;
-      overflow: hidden;
 
-      .dow-row__name {
+      .dow-row__name{
             width: 415px;
             font-size: 48px;
             line-height: 48px;
             letter-spacing: -2.14286px;
             color: #FFFFFF;
-            margin-right: 250px;
             position: absolute;
             left: 70px;
+            top: 100px;
+            z-index: 2;
       }
-      .dow-card{
+
+      .dow-card {
             position: absolute;
             right: 0px;
             z-index: 2;
       }
-      .circles{
+
+      .circles {
             position: relative;
             display: flex;
       }
-      .dow-circle{
+
+      .dow-circle {
             height: 347px;
             margin: 20px;
             width: 347px;
@@ -39,14 +42,73 @@
             border-radius: 50%;
             position: absolute;
             top: -50px;
-            right:100px ;
+            right: 120px;
             z-index: -1;
       }
-      .dow-circle:nth-child(2){
+
+      .dow-circle:nth-child(1) {
             right: 500px;
+            z-index: -1;
       }
-      .dow-circle-3{
+
+      .dow-circle-3 {
             width: 347px;
-height: 347px;
+            height: 347px;
+            background: #E5ECF4;
+            opacity: 0.1;
+            border-radius: 50%;
+            position: absolute;
+            right: -250px;
+            top: -5px;
+      }
+}
+@media only screen and (max-width: 768px) {
+      .dow-row{
+            .dow-row__name{
+                  text-align: center;
+                  top: 60px;
+            }
+            .dow-card{
+                  top: 200px;
+                  right: 25%;
+            }
+            .dow-circle{
+                  top: -110px;
+                  right: 10px;
+            }
+            .dow-circle:nth-child(1){
+                  right: 380px;
+            }
+            .dow-circle-3{
+                  right: -350px;
+                  top: -80px;
+            }
+      }
+}
+
+@media only screen and (max-width: 576px) {
+      .dow-row{
+            .dow-row__name{
+                  font-size: 32px;
+                  left: 32px;
+                  width: 311px;
+            }
+            .dow-card{
+                  right: 15%;
+            }
+            .dow-card a img {
+                  height: 40px;
+            }
+
+            .dow-circle{
+                  right: 120px;
+            }
+            .dow-circle:nth-child(1){
+                  display: none;
+            }
+            .dow-circle-3{
+                  right: -250px;
+                  top: -90px;
+            }
       }
 }
