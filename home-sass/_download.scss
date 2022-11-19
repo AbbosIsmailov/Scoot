@@ -1,0 +1,52 @@
+.download {
+      width: 100%;
+      margin-top: 170px;
+      background-color: #495567;
+      margin-bottom: 200px;
+}
+
+.dow-row {
+      display: flex;
+      align-items: center;
+      height: 300px;
+      position: relative;
+      overflow: hidden;
+
+      .dow-row__name {
+            width: 415px;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #FFFFFF;
+            margin-right: 250px;
+            position: absolute;
+            left: 70px;
+      }
+      .dow-card{
+            position: absolute;
+            right: 0px;
+            z-index: 2;
+      }
+      .circles{
+            position: relative;
+            display: flex;
+      }
+      .dow-circle{
+            height: 347px;
+            margin: 20px;
+            width: 347px;
+            border: 15px solid #E5ECF4;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            right:100px ;
+            z-index: -1;
+      }
+      .dow-circle:nth-child(2){
+            right: 500px;
+      }
+      .dow-circle-3{
+            width: 347px;
+height: 347px;
+      }
+}
