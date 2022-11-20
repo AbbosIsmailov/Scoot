@@ -1,0 +1,46 @@
+.our-value {
+      text-align: center;
+}
+
+.value-col {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+}
+
+
+.value-card{
+      margin: 0 30px;
+      .imgs{
+            width: 350px;
+            margin: auto;
+      }
+      img{
+            width: 350px;
+            height: 350px;
+      }
+}
+.value-card__name {
+      margin-top: 32px;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: -1.07143px;
+      color: #495567;
+}
+
+.value-card__text {
+      margin-top: 27px;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #939CAA;
+}
+@media only screen and (max-width: 992px) {
+      .our-value{
+            margin-top: 120px;
+      }
+      .value-col{
+            flex-direction: column;
+            margin-top: 40px;
+      }
+}

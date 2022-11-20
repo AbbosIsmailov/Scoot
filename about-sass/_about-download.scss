@@ -1,0 +1,68 @@
+.download {
+      height: 300px;
+      width: 100%;
+      background-color: #495567;
+      margin-top: 160px;
+      overflow: hidden;
+}
+
+.dow-col {
+      height: 300px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+
+      .dow-theme {
+            width: 415px;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #000;
+            margin-left: 20px;
+      }
+}
+
+.download-round {
+      position: relative;
+
+      .dow-circle {
+            width: 347px;
+            height: 347px;
+            opacity: 0.1;
+            border: 15px solid #E5ECF4;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            border-radius: 50%;
+            position: absolute;
+            top: 150px;
+            right: 550px;
+      }
+
+      .dow-circle:nth-child(2) {
+            right: 150px;
+      }
+
+      .dow-round {
+            width: 347px;
+            height: 347px;
+            opacity: 0.1;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background: #E5ECF4;
+            position: absolute;
+            border-radius: 50%;
+            top: 150px;
+            right: -270px;
+      }
+}
+@media only screen and (max-width:888px) {
+      .dow-col{
+            flex-direction: column;
+            justify-content: center;
+            .dow-theme{
+                  text-align: center;
+            }
+            .dow-card{
+                  margin-top: 50px;
+            }
+      }
+}
