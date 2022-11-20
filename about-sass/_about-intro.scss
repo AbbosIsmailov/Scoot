@@ -1,0 +1,26 @@
+.about-intro {
+      background: url("../about-img/intro-back.png") center center/cover no-repeat;
+
+}
+
+.about-row {
+
+      background: rgba(#495567, 0.4);
+}
+
+.about-intro-col {
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .about-intro-name {
+            font-size: 56px;
+            letter-spacing: -2.5px;
+            color: #FFFFFF;
+      }
+      .intro-oval{
+            margin-right: -75px;
+      }
+}
+

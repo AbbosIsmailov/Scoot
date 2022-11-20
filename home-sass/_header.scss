@@ -1,44 +1,50 @@
 // .header{
 //       position: relative;
 // }
-.nav{
+.nav {
       display: flex;
       align-items: center;
-      justify-content: space-between;// fixed qilyapturganda olish kk
+      justify-content: space-between; // fixed qilyapturganda olish kk
       height: 100px;
       // border: 1px solid;
       width: 100%;
       // position: fixed;
 }
 
-.nav-list{
+.nav-list {
       display: flex;
-      // border: 1px solid;
-      .logo{
+
+      .logo {
             text-decoration: none;
             color: #495567;
             font-size: 30px;
       }
 }
 
-.navbar{
+.navbar {
       list-style: none;
       display: flex;
       align-items: center;
       margin-left: 26px;
-     
 
-      .navbar__item{
+
+      .navbar__item {
             margin-left: 32px;
             color: #939CAA;
             transition: 0.3s;
       }
-      .navbar__item:hover{
+
+      .navbar__item:hover {
             color: #FCB72B;
       }
 }
 
-.all-btn{
+.navbar__link {
+      color: #939CAA;
+      text-decoration: none;
+}
+
+.all-btn {
       border: 3px solid #FCB72B;
       color: #fff;
       font-size: 15px;
@@ -53,55 +59,63 @@
 //       position: absolute;
 //       right: 0px;
 // }
-.all-btn:hover{
+.all-btn:hover {
       background-color: transparent;
       color: #FCB72B;
 }
 
 @media only screen and (max-width: 768px) {
-      .all-btn{
+      .all-btn {
             width: 150px;
       }
-      .navbar{
+
+      .navbar {
             margin-left: 18px;
-            .navbar__item{
+
+            .navbar__item {
                   margin-left: 24px;
             }
       }
 
 }
 
-.menu-icon{
+.menu-icon {
       display: none;
 }
-.navbar-phone{
+
+.navbar-phone {
       display: none;
 }
 
 @media only screen and (max-width: 576px) {
-      .navbar{
+      .navbar {
             display: none;
       }
-      .nav__btn{
+
+      .nav__btn {
             display: none;
       }
-      .nav{
+
+      .nav {
             height: 80px;
       }
-      .nav-list{
+
+      .nav-list {
             width: 58%;
             justify-content: space-between;
             align-items: center;
       }
-      .menu-icon{
+
+      .menu-icon {
             display: block;
             width: 20px;
             height: 16px;
       }
+
       // .menu-icon:hover + .navbar-phone{
       //       display: block;
       //       list-style: none;
       // }
 
-      
+
 }

@@ -1,0 +1,117 @@
+.about-main{
+      overflow: hidden;
+}
+.main-row-1{
+      display: flex;
+      justify-content: space-between;
+}
+.main-left-1{
+      width: 445px;
+      margin-left: 100px;
+}
+.main-right-1{
+      width: 445px;
+      max-height: 445px;
+      .women{
+            border-radius: 50%;
+            width: 445px;
+            margin-left: -100px;
+      }
+      .main-1__circle{
+            margin-top: -455px;
+            margin-left: 410px;
+      }
+      .about-1-ST{
+            position: relative;
+            right: 0;
+            top: -180px;
+      }
+}
+
+@media only screen and  (max-width: 992px) {
+      .main-row-1{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+      }
+      .main-left-1{
+            margin: auto;
+            text-align: center;
+            width: 573px;
+            .main-1-name{
+                  width: 445px;
+                  margin: auto;
+                  margin-top: 50px;
+            }
+      }
+      .main-right-1{
+            margin: auto;
+            .about-1-ST{
+                  right: 0px;
+                  margin-bottom: 50px;
+            }
+            .women{
+                  margin-left: 0;
+            }
+            .main-1__circle{
+                margin-left: 510px;  
+            }
+      }
+}
+/*-qatorni boshladik*/
+// .main-row-2{
+//       // display: flex;
+//       justify-content: space-between;
+// }
+.main-left-2{
+      width: 445px;
+      margin-right: 100px;
+}
+.main-right-2{
+      width: 445px;
+      max-height: 445px;
+      .street{
+            border-radius: 50%;
+            width: 445px;
+            margin-left: 100px;
+      }
+      .main-2-circle{
+            margin-top: -445px;
+            margin-left: -420px;
+      }
+      .main-2__ST{
+            position: relative;
+            top: -445px;
+            left: -70px;
+      }
+}
+
+@media only screen and (max-width: 992px) {
+      .main-row-2{
+            flex-direction: column-reverse;
+            margin-top: 100px;
+      }
+      .main-right-2{
+            margin: auto;
+            .street{
+                  margin-left: 0;
+            }
+            .main-2-circle{
+                  margin-left: -500px;
+            }
+            .main-2__ST{
+                  left: -270px;
+                  width: 434px;
+            }
+      }
+      .main-left-2{
+            margin: auto;
+            text-align: center;
+            width: 573px;
+            .main-2-name{
+                  width: 445px;
+                  margin: auto;
+                  margin-top: 50px;
+            }
+      }
+}
