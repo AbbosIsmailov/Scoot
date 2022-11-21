@@ -19,8 +19,30 @@
             letter-spacing: -2.5px;
             color: #FFFFFF;
       }
-      .intro-oval{
+
+      .intro-oval {
             margin-right: -75px;
       }
 }
 
+@media only screen and (max-width:768px) {
+      .about-intro-col{
+            .intro-oval{
+                  margin-right: -45px;
+            }
+      }
+}
+
+@media only screen and (max-width: 576px) {
+      .about-intro-col {
+            .about-intro-name {
+                  letter-spacing: -1.78571px;
+                  font-size: 40px;
+                  margin: auto;
+            }
+            .intro-oval{
+                  display: none;
+            }
+      }
+
+}
