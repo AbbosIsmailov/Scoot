@@ -66,3 +66,19 @@
             }
       }
 }
+@media only screen and (max-width:576px) {
+      .dow-col{
+            .dow-theme{
+                  margin-left: 0;
+                  letter-spacing: -1.42857px;
+                  width: 311px;
+                  line-height: 32px;
+                  font-size: 32px;
+            }
+      }
+      .dow-card{
+            img{
+                  height: 40px;
+            }
+      }
+}

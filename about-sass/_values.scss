@@ -43,4 +43,22 @@
             flex-direction: column;
             margin-top: 40px;
       }
+      .value-card{
+            .imgs{
+                  display: flex;
+                  justify-content: center;
+            }
+      }
+}
+
+@media only screen and (max-width:490px) {
+      .value-card{
+            width: 311px;
+            margin: auto;
+            .imgs{
+                  width: 311px;
+                  display: flex;
+                  justify-content: center;
+            }
+      }
 }

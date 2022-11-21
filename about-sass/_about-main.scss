@@ -58,6 +58,11 @@
             }
       }
 }
+
+@media screen and (max-width:768px) {
+      
+}
+
 /*-qatorni boshladik*/
 // .main-row-2{
 //       // display: flex;
@@ -112,6 +117,40 @@
                   width: 445px;
                   margin: auto;
                   margin-top: 50px;
+            }
+      }
+}
+@media only screen and (max-width:768px) {
+      .main-left-2{
+            width: 90%;
+      }
+      .main-right-2{
+            .main-2-circle{
+                  margin-left: -470px;
+            }
+      }
+}
+@media only screen and (max-width:576px) {
+      .main-left-2{
+            margin-top: -130px;
+            .main-2-name{
+                  width: 311px;
+                  font-size: 32px;
+                  line-height: 32px;
+            }
+      }
+      .main-right-2{
+            width: 311px;
+            .street{
+                  height: 311px;
+                  width: 311px;
+            }
+            .main-2-circle{
+                  display: none;
+            }
+            .main-2__ST{
+                  left: -120px;
+                  top: -300px;
             }
       }
 }
