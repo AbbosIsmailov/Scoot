@@ -1,297 +1,195 @@
-
-.main-row-1 {
-      margin-top: 140px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-}
-
-.col-name {
-      margin-top: 60px;
-      font-size: 48px;
-      letter-spacing: -2.14286px;
-      color: #495567;
-}
-
-.col-text {
-      font-size: 15px;
-      line-height: 25px;
-      color: #939CAA;
-      margin-top: 24px;
-}
-
-.circle-blue {
-      height: 445px;
-      width: 445px;
-      border-radius: 50%;
-      background: #E2EBE2;
-}
-
-.col-left-1 {
-      width: 445px;
-
-      .col-left-1__btn {
+.main-left-1{
+      .main-left-1__btn{
             margin-top: 40px;
       }
 }
-
-.col-right-1 {
-      position: relative;
-      width: 747px;
-
-      .women-img {
-            border-radius: 50%;
-            height: 445px;
-            position: absolute;
-            left: 10%;
-      }
-
-      .col-right-1__circle {
-            height: 445px;
-            position: absolute;
-            top: 0px;
-            left: 98%;
-      }
-
-      .col-right-1__ST {
-            width: 735px;
-            position: absolute;
-            top: 300px;
-            right: -12%;
-      }
-}
-
-@media only screen and (max-width: 768px) {
-      .main-row-1 {
-            flex-direction: column-reverse;
-      }
-
-      .col-right-1 {
-            width: 573px;
-            height: 498px;
-
-            .col-right-1__circle {
-                  left: 90%;
-            }
-
-            .col-right-1__ST {
-                  right: -25%;
-            }
-      }
-
-      .col-left-1 {
-            text-align: center;
-            margin: auto;
-      }
-}
-
-@media only screen and (max-width: 576px) {
-      .col-right-1 {
-            width: 311px;
-
-            .women-img {
-                  width: 311px;
-                  height: 311px;
-                  left: 4%;
-            }
-
-            .col-right-1__circle {
-                  display: none;
-            }
-
-            .col-right-1__ST {
-                  top: 200px;
-                  right: -145%;
-            }
-      }
-
-      .col-left-1 {
-            width: 311px;
-            margin-top: -156px;
-            .col-name{
-                  font-size: 32px;
-            }
-      }
-}
-
-/*2-qatorga ottik*/
-.main-row-2 {
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      align-items: center;
-}
-
-.col-right-2 {
-      position: relative;
-      margin-top: 160px;
-
-      .city-main {
+.main-right-1{
+      .women-img{
             border-radius: 50%;
             width: 445px;
-            height: 445px;
-            position: absolute;
-            top: 0;
-            left: 50px;
       }
-
-      .col-right-2__circle {
-            position: absolute;
-            left: -450px;
-            z-index: 3;
-
+      .main-right-1__circle{
+            margin-top: -455px;
+            margin-left: 480px;
       }
-
-      .col-right-2-ST {
-            position: absolute;
-            left: -80px;
-            z-index: 2;
+      .main-right-1__ST{
+            width: 734px;
+            position: relative;
+            right: 100px;
+            top: -140px;
       }
 }
-
-.col-left-2 {
-      width: 445px;
-      margin-top: 160px;
-      position: relative;
-      right: 15%;
-
-      .col-left-2__btn {
-            margin-top: 40px;
+@media only screen and (max-width:992px) {
+      .main-right-1{
+            .women-img{
+                  margin-left: 0;
+            }
+            .main-right-1__circle{
+                  margin-left: 510px;
+            }
+            .main-right-1__ST{
+                  right: 0px;
+                  margin-bottom: 50px;
+            }
       }
 }
-
-@media only screen and (max-width: 798px) {
-      .col-right-2 {
-           .col-right-2__circle{
-                  left: -410px;
-                  top: -15px;
-            }
-
-            .col-right-2-ST{
-                  left: -50px;
-            }
-      }
-
-      .col-left-2 {
-            width: 573px;
-            top: 480px;
-            left: 0.5%;
-            text-align: center;
- 
-      }
-}
-
-@media only screen and (max-width: 576px) {
-      .col-right-2{
-            .col-right-2__circle{
-                  display: none;
-            }
-            .city-main{
-                  height: 311px;
+@media only screen and (max-width:576px) {
+      .main-right-1{
+            .women-img{
                   width: 311px;
             }
-            .col-right-2-ST{
-                  left: -80px;
+            .main-right-1__circle{
+                  display: none;
             }
-      }
-      .col-left-2{
-            top: 340px;
-            .col-name{
-                  font-size: 32px;
+            .main-right-1__ST{
+                  right: 10px;
+                  top: -110px;
+                  width: 600px;
             }
       }
 }
-@media only screen and (max-width: 460px) {
-      .col-right-2{
+/*2-qatorni boshladik*/
+.main-left-2__btn{
+      margin-top: 40px;
+}
+.main-right-2{
+      margin-left: 100px;
+      margin-top: 100px;
+      .city-main{
+            border-radius: 50%;
+            width: 445px;
+            margin-top: -445px;  
+            margin-bottom: 5px;
+      }
+      .main-right-2__circle{
+            margin-top: -10px;
+            margin-left: -500px;
+      }
+      .main-right-2__ST{
+            position: relative;
+            top: -445px;
+            left: -180px;
+      }
+}
+@media only screen and (max-width:992px) {
+    .main-right-2{
+      .main-right-2__ST{
+            left: -250px;
+            width: 400px;
+      }
+    }  
+}
+@media screen and (max-width:768px) {
+      .main-right-2{
+            .main-right-2__ST{
+                  left: -210px;
+            }
+          }  
+}
+@media screen and (max-width:576px) {
+      .main-right-2{
             .city-main{
-               left: 10px;   
+                  width: 311px;
+                  margin-top: 0;
             }
-      }
-      .col-left-3{
-            .col-name{
-                  font-size: 32px;
+            .main-right-2__circle{
+                  display: none;
+            }
+            .main-right-2__ST{
+                  width: 350px;
+                  top: -330px;
+                  left: -200px;
             }
       }
 }
-
-/*3-qatorni boshladik*/
+/*3-qator boshlandi*/
 .main-row-3{
       display: flex;
-      flex-wrap: wrap;
-      margin-top: 120px;
+      justify-content: space-between;
+      margin-top: 100px;
 }
-
-.col-left-3{
+.main-left-3{
       width: 445px;
-      margin: auto;
-      .col-left-3__btn{
+      margin-left: 100px;
+      .main-left-3__btn{
             margin-top: 40px;
       }
 }
-.col-right-3{
-      position: relative;
-      width: 732px;
-      .col-right-3__circle{
-            position: absolute;
-            right: -450px;
-      }
+.main-right-3{
+      width: 445px;
+      max-height: 445px;
       .xamyon{
-            height: 445px;
-            position: absolute;
             border-radius: 50%;
-            left: 20%;
+            width: 445px;
+            margin-top: -445px;
+            margin-bottom: 5px;
       }
-      .col-right-3__ST{
-            position: absolute;
-            right: -170px;
-            width: 450px;
+      .main-right-3__circle{
+            margin-top: -10px;
+            margin-left: 480px;
+      }
+      .main-right-3__ST{
+            position: relative;
+            right: -240px;
+            top: -350px;
       }
 }
-
-@media only screen and (max-width:776px) {
-      .col-left-3{
-            width: 500px;
+@media screen and (max-width: 992px) {
+      .main-row-3{
+            flex-direction: column-reverse;
+            justify-content: center;
+      }
+      .main-left-3{
+            margin: auto;
             text-align: center;
-            margin: 900px auto 0;
-
-      }
-      .col-right-3{
-            margin-top: 450px;
-            position: absolute;
-            right: 1%;
-            .col-right-3__circle{
-                  right: -380px;
-                  top: -20px;
-                  display: none;
+            width: 573px;
+            .main-3-name{
+                  width: 445px;
+                  margin: auto;
+                  margin-top: 50px;
             }
-            .col-right-3__ST{
+      }
+      .main-right-3{
+            margin: auto;
+            .main-right-3__circle{
+                  margin-left: 510px;
+            }
+            .main-right-3__ST{
                   width: 400px;
-                  right: -50px;
-                  top: 50px;
+                  right: -280px;
+                  margin-bottom: 50px;
+                  top: -400px;
             }
       }
 }
-@media only screen and (max-width: 576px) {
-      .col-right-3{
-            margin-top: 350px;
-            .xamyon{
-                  height: 311px;
-                  width: 311px;
-                  left: 52%;
+@media only screen and (max-width:768px) {
+      .main-left-3{
+            width: 415px;
+      }
+}
+
+@media only screen and (max-width:576px) {
+      .main-left-3{
+            margin-top: -120px;
+            width: 100% ;
+            h3{
+                  width: 90%;
             }
-            .col-right-3__circle{
+      }
+      .main-right-3{
+            width: 311px;
+            .xamyon{
+                  width: 311px;
+                  margin: auto;
+            }
+            .main-right-3__circle{
                   display: none;
             }
-            .col-right-3__ST{
+            .main-right-3__ST{
+                  top:-300px ;
+                  right: -150px;
                   width: 300px;
-                  right: -80px;
             }
-      }
-      .col-left-3{
-            margin: 680px auto 0;
-            .col-name{
-                  font-size: 32px;
-            }
-      }
 
+      }
 }

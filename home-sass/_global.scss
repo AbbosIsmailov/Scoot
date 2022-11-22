@@ -14,7 +14,6 @@ body {
 .container{
       width: 90%;
       margin: 0 auto;
-      // border: 1px solid;
 }
 .font-lexend{
       font-family: 'Lexend Deca';
@@ -33,6 +32,12 @@ body {
       color: #939CAA;
       margin-top: 24px;
       font-family: 'Lexend Deca';
+}
+.circle-blue {
+      height: 445px;
+      width: 445px;
+      border-radius: 50%;
+      background: #E2EBE2;
 }
 
 @media only screen and (max-width: 576px) {

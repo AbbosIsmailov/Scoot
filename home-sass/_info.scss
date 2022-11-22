@@ -46,7 +46,7 @@
 
             .info__line {
                   transform: rotate(90deg);
-                  top: 1005px;
+                  top: 1008px;
                   left: -168px;
                   width: 550px;
             }
@@ -75,22 +75,30 @@
 @media only screen and (max-width: 576px) {
       .info {
             margin-top: 70px;
-            .info__line{
+
+            .info__line {
                   display: none;
             }
       }
-      .info-col{
+
+      .info-col {
             flex-direction: column;
             width: 311px;
+            margin: auto;
+
+            .info-col__img {
+                  margin-top: 50px;
+            }
       }
-      .info-col__img{
-            margin-top: 50px;
+      .info-col:nth-child(2){
+            margin: auto;
       }
-      .card{
+
+      .card {
             width: 100%;
             text-align: center;
             margin: auto;
-            .card__text{
+            .card__text {
                   text-align: center;
             }
       }
